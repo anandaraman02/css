@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: blueviolet;
+}
+.navbar_logo{
+ display: inline;
+}
+.navbar_detail {
+    display: inline;
+    float: right;
+    padding-top: 15px;
+    
+
+}
+.navbar_detail a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.navbar_detail a:hover{
+    background-color: orange;
+    border: 5px;
+    border-radius: 5px;
+}
+.navbar_detail button{
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+.navbar_detail button:hover{
+    background-color: lightpink;
+border-color: ghostwhite;
+
+}
+/*using gradient*/
+#grad{
+    background-color: red; 
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+/*using anmation*/
+.banner_button button{
+    background-color: red;
+    display: inline-block;
+    animation-name: button;
+    animation-duration: 4s;
+}
+@keyframes button{
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+.banner_content{
+    background-image: url(merakist-jyoSxjUE22g-unsplash\ \(1.jpg);
+    width: 100%x;
+    height:880px;  
+    background-attachment: fixed;  
+}
+.banner_detail h1{
+    font-size: 50px;
+    padding: 40px;
+}
+.banner_detail p {
+    font-size: 25px;
+    text-align: left;
+}
+.banner_button button{
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    color: whitesmoke;
+    
+}
+.footer{
+    text-align: center;
+    background-color: brown;
+    color: whitesmoke;
+}
